@@ -1,3 +1,5 @@
 price = 10
-price = 20
+rating = 4.9
+name = "Joseph"
+is_published = True
 print(price)
