@@ -58,10 +58,10 @@ while quit == "no":
             print("It's already off. Are you feeling alright?")
         if command.upper() == "QUIT:":
             quit = "yes"
-        if command.upper() is not "QUIT" or "STOP" or "HELP" or "START":
-            print("You're gonna have to choose from the 3 options, I'm still kinda bad at programming.")
+           
     else:
-        command = input('The car is chugging along harshly. ')
+        print('The car is chugging along harshly. ')
+        command == input()
         if command.upper() == "HELP:":
             print('''
                 start - to start the car
