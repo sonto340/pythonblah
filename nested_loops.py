@@ -6,4 +6,4 @@ for x in numbers:
     output = ""
     for count in range(x):
         output += "x"
-    print(output)
+    print(output) 
