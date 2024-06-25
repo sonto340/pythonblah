@@ -1,2 +1,1 @@
-from type2 import name
-print(name)
+from numbers import list_final
