@@ -51,14 +51,15 @@ while quit == "no":
                 start - to start the car
                 stop - to stop the car
                 quit - to exit  ''')
-        if command.upper() == "START":
+        elif command.upper() == "START":
             state= "on"
             print("The car rumbles to life, she's an antique alright...")
-        if command.upper() == "STOP":
+        elif command.upper() == "STOP":
             print("It's already off. Are you feeling alright?")
-        if command.upper() == "QUIT:":
-            quit = "yes"
-           
+        elif command.upper() == "QUIT:":
+            quit = "yes"  
+        else:
+            print("You have to enter a valid command")   
     else:
         print('The car is chugging along harshly. ')
         command == input()
@@ -74,5 +75,6 @@ while quit == "no":
             state = "off"
         if command.upper() == "QUIT":
             quit = "yes"
+        
 else:
     print("thanks for playing!")
