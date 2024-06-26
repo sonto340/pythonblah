@@ -2,9 +2,9 @@ in_battle = True
 matrix_numbers = []
 while in_battle:
     matrix = [
-        [matrix_numbers[0, 1, 2]],
-        [matrix_numbers[-1, -2, -3]],
-        [matrix_numbers[2, 5, 0]]
+        [int(matrix_numbers[0, 1, 2])],
+        [int(matrix_numbers[-1, -2, -3])],
+        [int(matrix_numbers[2, 5, 0])]
     ]
     input("You can Onlly attack.")
     matrix[1][1] = roll
