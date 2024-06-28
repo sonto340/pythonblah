@@ -1,9 +1,13 @@
 from char import stats
-import enemies
+from enemies import current_enemy
 #
 #
 #
-hit_chance = 75
+hit_chance = 65
 
-for roll in hit_chance:
-    en_hit = current_enemy.get("acc")
+roll = (stats["acc"] - current_enemy["acc"])
+if "hit_chance" < "roll":
+    hit = True
+else:
+    hit = False
+print(hit)
