@@ -13,3 +13,5 @@ print(customer["name"])
 #   instead of an error
 #   print(customer.get("birthdate"))
 #   the above would output "None"
+
+print(customer.get("birthyear"))
