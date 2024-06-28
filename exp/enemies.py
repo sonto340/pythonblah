@@ -4,7 +4,7 @@ goon = {
     "hp": 25,
     "atk": 12,
     "def": 7,
-    "hit": 5
+    "acc": 5
 }
 
 goon_captain = {
@@ -14,3 +14,4 @@ goon_captain = {
 }
 
 current_enemy = goon
+
