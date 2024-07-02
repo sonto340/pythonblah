@@ -2,7 +2,7 @@ in_battle = True
 matrix_numbers = []
 while in_battle:
     matrix = [
-        [int(matrix_numbers[0, 1, 2])],
+        [int(matrix_numbers(0, 1, 2))],
         [int(matrix_numbers[-1, -2, -3])],
         [int(matrix_numbers[2, 5, 0])]
     ]
