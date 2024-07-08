@@ -1,2 +1,1 @@
-from moji import emojis
-
+from moji import emoji_converter
