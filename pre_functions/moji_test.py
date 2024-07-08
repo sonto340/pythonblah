@@ -1,0 +1,2 @@
+from moji import emojis
+
